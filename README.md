@@ -9,8 +9,8 @@
 </ul>
 
 
-![](images/screenshots/ss1.png)
+![](images/screenshots/ss1.jpg)
 
 
-##Installation
+## Installation
 Currently waiting for approval to be published in Chrome Web Store. So for now, you have to download and load it as unpacked extension in your browser in developer mode.
