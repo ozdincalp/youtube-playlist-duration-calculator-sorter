@@ -1,0 +1,22 @@
+{
+  "name": "YouTube Playlist Duration Calculator & Sorter",
+  "version": "1.0",
+  "description": "An extension for sorting YouTube playlist by name or video length and calculating total duration of entire playlist or selected videos in a playlist",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://*.youtube.com/watch*list*"],
+    "js": ["app.js"],
+    "run_at":"document_end"
+  }],
+  "permissions": [
+    "https://*.youtube.com/watch*list*"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png",
+    "128": "images/icon128.png"
+  }
+
+}
