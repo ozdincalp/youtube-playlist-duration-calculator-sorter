@@ -341,7 +341,7 @@ function getVideoLengths(videos) {
 }
 function addFlexbox() {
   let items = document.getElementsByClassName(
-    "playlist-items yt-scrollbar-dark style-scope ytd-playlist-panel-renderer"
+    "style-scope ytd-playlist-panel-renderer"
   ).items;
   items.style.flexDirection = "column";
   items.style.display = "flex";
